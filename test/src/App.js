@@ -40,7 +40,7 @@ class App extends Component {
         <NavLink to ='/login'> Login </NavLink>
         &nbsp;|&nbsp;
         <NavLink to='/users'> Users </NavLink>
-        <button onClick={this.logout}> Logout </button>
+        <button className ='logout' onClick={this.logout}> Logout </button>
       </header>
 
       <Switch>

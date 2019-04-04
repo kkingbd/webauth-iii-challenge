@@ -12,6 +12,12 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+header .logout{
+  width : 70px;
+  height: 25px;
+  margin: 20px;
+  border-radius: 5px;
+}
 
 a{
   text-decoration: none;
